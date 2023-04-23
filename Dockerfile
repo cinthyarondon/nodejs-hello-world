@@ -27,7 +27,7 @@ RUN addgroup -S nodejs && adduser -S nodejs -G nodejs
 USER nodejs
 ENV HOME=/home/nodejs
 
-# Expose port 3000 for the application
+# Expose port 3000 
 EXPOSE 3000
 
 # Start the application
