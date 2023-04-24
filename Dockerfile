@@ -1,4 +1,4 @@
-# Build stage
+# Build stage using a official image 
 FROM node:14-alpine as build
 
 # Set the working directory to /app
